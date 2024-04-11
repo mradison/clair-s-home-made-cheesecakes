@@ -1,7 +1,7 @@
 import { useQuery } from "@apollo/client";
 import { Link } from "react-router-dom";
-import OldroomJPG from "../assets/oldroom.jpg";
-import HalfwayroomJPG from "../assets/halfway.jpg";
+import Strawberryswirl from "../assets/strawberryswirl.jpg";
+import Carrotcake from "../assets/carrotcake.jpg";
 import NewroomJPG from "../assets/newroom.jpg";
 
 function Homepage({ TasksValue }) {
@@ -19,7 +19,13 @@ function Homepage({ TasksValue }) {
         <h2 style={{ textDecoration: "underline" }}>Our Cheesecake Categories</h2>
         <ul>
           <p>Single layered - 8 inch $20, or 9-10 inch $30: Each cheesecake comes with its standard crust. You can choose your own choice of crust from original graham cracker, chocolate graham cracker, cinnamon graham cracker, vanilla wafer, shortbread, gingerbread, crumble crust (like you would find on a pie or cobbler), brownie, Oreo or chocolate chip cookie crust for an additional $5.00. </p>
+          <div className="imageItem">
+            <img className="frontPics" src={Strawberryswirl} alt="Before Picture" />
+          </div>
           <p>Multi-Layered - 8 inch $30 and 9-10 $40</p>
+          <div className="imageItem">
+            <img className="frontPics" src={Carrotcake} alt="Before Picture" />
+          </div>
           <p>Cheesecake Cupcakes – 12 cupcakes for $25 or 24 cupcakes for $35</p>
           <p>Jumbo Cheesecake Cupcakes – 6 cupcakes for $20 or 12 cupcakes for $30</p>
           <p>Mini Cheesecake Cupcakes – 24 cupcakes for $15 or 48 cupcakes for $25</p>
