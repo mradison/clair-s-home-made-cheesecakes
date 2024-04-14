@@ -1,8 +1,15 @@
-import { useQuery } from "@apollo/client";
-import { Link } from "react-router-dom";
+// import { useQuery } from "@apollo/client";
+// import { Link } from "react-router-dom";
 import Strawberryswirl from "../assets/strawberryswirl.jpg";
 import Carrotcake from "../assets/carrotcake.jpg";
-import NewroomJPG from "../assets/newroom.jpg";
+import Caramelturtlecupcakes from "../assets/Caramelturtlecupcakes.jpg";
+import Strawberrynutcrunchcheesecakecupcakes1 from "../assets/strawberrynutcrunchcheesecakecupcakes1.jpg";
+import Mixedberrybars from "../assets/mixedberrybars.jpg";
+import Cheescakebites2 from "../assets/cheescakebites2.jpg";
+import Caramelapplecupcakes from "../assets/caramelapplecupcakes.jpg";
+import Heartshapedstrawberryswirl from "../assets/heartshapedstrawberryswirl.jpg";
+import Peppermintwhitechocolate from "../assets/peppermintwhitechocolate1.jpg";
+
 
 function Homepage({ TasksValue }) {
   return (
@@ -22,41 +29,49 @@ function Homepage({ TasksValue }) {
           <div className="imageItem">
             <img className="frontPics" src={Strawberryswirl} alt="Before Picture" />
           </div>
+          <div className="title">"Strawberry Swirl"</div>
           <p>Multi-Layered - 8 inch $30 and 9-10 $40</p>
           <div className="imageItem">
             <img className="frontPics" src={Carrotcake} alt="Before Picture" />
           </div>
+          <div className="title">"Carrot Cake"</div>
           <p>Cheesecake Cupcakes – 12 cupcakes for $25 or 24 cupcakes for $35</p>
+          <div className="imageItem">
+            <img className="frontPics" src={Caramelturtlecupcakes} alt="Before Picture" />
+          </div>
+          <div className="title">"Caramel Turtle Cupcakes"</div>
           <p>Jumbo Cheesecake Cupcakes – 6 cupcakes for $20 or 12 cupcakes for $30</p>
+          <div className="imageItem">
+            <img className="frontPics" src={Strawberrynutcrunchcheesecakecupcakes1} alt="Before Picture" />
+          </div>
+          <div className="title">"Strawberry Nut Crunch Cheescake Cupcakes"</div>
           <p>Mini Cheesecake Cupcakes – 24 cupcakes for $15 or 48 cupcakes for $25</p>
+          <div className="imageItem">
+            <img className="frontPics" src={Caramelapplecupcakes} alt="Before Picture" />
+          </div>
+          <div className="title">"Caramel Apple Cupcakes"</div>
           <p>Cheesecake Bars 2x2 – 16 for $20 or 24 bars for $30 or 48 bars for $40</p>
-          <p>Cheesecake Bars 1x1 – 64 for $20 or 96 bars for $30</p>
+          <div className="imageItem">
+            <img className="frontPics" src={Mixedberrybars} alt="Before Picture" />
+          </div>
+          <div className="title">"Mixed Berry Bars"</div>
+          <p>Cheesecake Bites 1x1 – 64 for $20 or 96 bars for $30</p>
+          <div className="imageItem">
+            <img className="frontPics" src={Cheescakebites2} alt="Before Picture" />
+          </div>
+          <div className="title">"Cheesecake Bites"</div>
           <p>“All about the Crust” – This is cheesecake encased in graham cracker crust! - 8 inch $20 or 9-10 $30 add $5 dollars and I will add in the flavor or topping of your choice</p>
           <p>Seasonal Favorites or anytime you like - 8 inch $20 or 9-10 inch $30</p>
+          <div className="imageItem">
+            <img className="frontPics" src={Heartshapedstrawberryswirl} alt="Before Picture" />
+          </div>
+          <div className="title">"Heart Shaped Cheescake"</div>
+          <div className="imageItem">
+            <img className="frontPics" src={Peppermintwhitechocolate} alt="Before Picture" />
+          </div>
+          <div className="title">"Peppermint White Chocolate Cheescake"</div>
         </ul>
       </section>
-
-      {/* <section className="portfolio">
-        <h2 style={{ textDecoration: "underline" }}>C</h2>
-        <div className="imageContainer">
-        <p className="LCText">Before</p>
-          <div className="imageItem">
-            <img className="frontPics" src={OldroomJPG} alt="Before Picture" />
-          </div>
-          <p className="LCText">During</p>
-          <div className="imageItem">
-            <img
-              className="frontPics"
-              src={HalfwayroomJPG}
-              alt="Halfway Picture"
-            />
-          </div>
-          <p className="LCText">After</p>
-          <div className="imageItem">
-            <img className="frontPics" src={NewroomJPG} alt="After Picture" />
-          </div>
-        </div>
-      </section> */}
     </main>
   );
 }
