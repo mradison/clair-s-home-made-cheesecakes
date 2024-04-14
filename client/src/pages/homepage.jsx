@@ -1,5 +1,5 @@
-// import { useQuery } from "@apollo/client";
-// import { Link } from "react-router-dom";
+import { useQuery } from "@apollo/client";
+import { Link } from "react-router-dom";
 import Strawberryswirl from "../assets/strawberryswirl.jpg";
 import Carrotcake from "../assets/carrotcake.jpg";
 import Caramelturtlecupcakes from "../assets/Caramelturtlecupcakes.jpg";
