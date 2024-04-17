@@ -6,6 +6,14 @@ const { authMiddleware } = require('./utils/auth');
 
 const { typeDefs, resolvers } = require('./schemas');
 const db = require('./config/connection');
+const e = require('express');
+
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+//Resolving dirname for ES module 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -13,6 +21,12 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
 });
+
+// Use the Client App
+app.use(express.static(path.join(__dirname, '/client/dist')));
+
+// Render client for any path
+app.get('*', (req, res) => res.sendFile((__dirname, '/client/dist.index.html')));
 
 // Create a new instance of an Apollo server with the GraphQL schema
 const startApolloServer = async () => {
