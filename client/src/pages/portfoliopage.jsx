@@ -22,7 +22,7 @@ import Snickerdoodlebites from "../assets/snickerdoodlebites.jpg";
 import Strawberryswirlcupcakes from "../assets/strawberryswirlcupcakes.jpg";
 import Vanilla from "../assets/vanilla.jpg";
 import Vanillabars from "../assets/vanillabars.jpg";
-import Vanillafreshstrawberries from "../assets/Vanillafreshstrawberries.jpg";
+import Vanillafreshstrawberries from "../assets/vanillafreshstrawberries.jpg";
 import Strawberryswirlbars1 from "../assets/strawberryswirlbars1.jpg";
 
 function Portfoliopage({ TasksValue }) {
