@@ -2,7 +2,7 @@ import { useQuery } from "@apollo/client";
 import { Link } from "react-router-dom";
 import Strawberryswirl from "../assets/strawberryswirl.jpg";
 import Carrotcake from "../assets/carrotcake.jpg";
-import Caramelturtlecupcakes from "../assets/Caramelturtlecupcakes.jpg";
+import Caramelturtlecupcakes from "../assets/caramelturtlecupcakes.jpg";
 import Strawberrynutcrunchcheesecakecupcakes1 from "../assets/strawberrynutcrunchcheesecakecupcakes1.jpg";
 import Mixedberrybars from "../assets/mixedberrybars.jpg";
 import Cheescakebites2 from "../assets/cheescakebites2.jpg";
