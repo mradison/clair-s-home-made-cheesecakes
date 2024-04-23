@@ -21,12 +21,6 @@ function Servicespage({ TasksValue }) {
         <li>Chocolate Peanut Butter Cup – chocolate cheesecake filled and topped w/peanut butter cups chocolate ganache! </li>
         <li>Double Peanut Butter/Peanut Butter Cup – Peanut butter cheesecake filled and topped w/peanut butter cups and chocolate ganache! </li>
         <li>Peanut Butter Cup/Butterfinger Caramel Fudge – New style cheesecake layered and topped with pieces of peanut butter cups, butterfingers and caramel then it is topped with fudge and peanut butter/buttercream! </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
       </ul>
 </div>
 

@@ -5,8 +5,7 @@
     "main": "server.js",
     "scripts": {
         "start": "node server.js",
-        "watch": "nodemon",
-        "build": "npm install --prefix ./client && npm run build --prefix ./client && npm install"
+        "watch": "nodemon"
     },
     "keywords": [],
     "author": "",
@@ -17,7 +16,7 @@
         "dotenv": "^16.4.1",
         "express": "^4.17.2",
         "graphql": "^16.6.0",
-        "jsonwebtoken": "^9.0.2",
+        "jsonwebtoken": "^8.5.1",
         "mongoose": "^7.0.2"
     },
     "devDependencies": {
